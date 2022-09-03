@@ -1,0 +1,11 @@
+.link {
+  display: inline-block;
+  padding: 20px 0;
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+}
+
+.link:not(:last-child) {
+  margin-right: 30px;
+}

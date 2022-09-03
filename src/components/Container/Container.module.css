@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(110, 216, 11);
+  color: white;
+  transition: background-color 250ms linear;
+}
