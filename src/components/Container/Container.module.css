@@ -8,3 +8,7 @@
   color: white;
   transition: background-color 250ms linear;
 }
+
+label {
+  justify-content: center;
+}

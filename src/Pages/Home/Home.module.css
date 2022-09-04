@@ -1,0 +1,14 @@
+.home {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.home h2 {
+  text-align: center;
+}
+
+label {
+  align-items: center;
+}
