@@ -1,7 +1,8 @@
 .contacts {
+  /* width: 100%; */
+  min-width: 500px;
   margin-top: 30px;
   padding: 20px 30px;
-  width: 500px;
   z-index: 10;
   border-radius: 6px;
   backdrop-filter: blur(15px);

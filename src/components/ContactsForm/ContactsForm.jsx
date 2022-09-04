@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
 
-import CSS from './Contacts.module.css';
+import CSS from './ContactsForm.module.css';
 
 export default function ContactsForm({ onSubmit }) {
   const [name, setName] = useState(

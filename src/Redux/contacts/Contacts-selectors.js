@@ -20,5 +20,6 @@ const contactsSelectors = {
   getLoading,
   getFilter,
   getVisibleContacts,
+  getAllContacts,
 };
 export default contactsSelectors;

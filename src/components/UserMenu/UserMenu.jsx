@@ -8,7 +8,7 @@ export default function UserMenu() {
 
   return (
     <div className={CSS.container}>
-      <span className={CSS.name}>Вітаю, {name}</span>
+      <span className={CSS.name}>Вітаю, {name}</span>{' '}
       <button onClick={() => dispatch(authOperations.logOut())} type="button">
         Вихід
       </button>
