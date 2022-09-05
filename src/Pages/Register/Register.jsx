@@ -53,7 +53,9 @@ export default function Register() {
           onChange={handleChange}
         />
       </label>
-      <button type="submit">Зареєструватися</button>
+      <button type="submit" className="button">
+        Зареєструватися
+      </button>
     </form>
   );
 }

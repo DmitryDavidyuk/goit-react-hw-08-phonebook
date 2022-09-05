@@ -1,4 +1,4 @@
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import ContactsForm from '../../components/ContactsForm';
@@ -51,7 +51,6 @@ export default function Contacts() {
             />
           )}
         </div>
-        <ToastContainer position="top-left" autoClose={2000} />
       </div>
     </div>
   );

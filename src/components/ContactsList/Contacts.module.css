@@ -18,15 +18,6 @@ h2 {
   align-items: center;
 }
 
-.contact header button {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
 .contactList {
   display: flex;
   align-items: center;

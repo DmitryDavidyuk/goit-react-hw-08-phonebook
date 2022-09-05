@@ -1,4 +1,5 @@
 import Contacts from 'Pages/Contacts/Contacts';
+import { ToastContainer } from 'react-toastify';
 import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
@@ -32,6 +33,7 @@ export function App() {
           </Route>
         </Route>
       </Routes>
+      <ToastContainer position="top-left" autoClose={2000} />
     </Container>
   );
 }

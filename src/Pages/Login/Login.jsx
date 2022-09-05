@@ -46,7 +46,9 @@ export default function Login() {
         />
       </label>
 
-      <button type="submit">Увійти</button>
+      <button type="submit" className="button">
+        Увійти
+      </button>
     </form>
   );
 }
